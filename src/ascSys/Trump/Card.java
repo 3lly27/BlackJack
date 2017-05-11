@@ -18,4 +18,10 @@ public class Card {
 		return num;
 	}
 
+	@Override
+	public String toString() {
+		// TODO 自動生成されたメソッド・スタブ
+		return this.suit.toString() + "_" + this.num.toString();
+	}
+
 }
